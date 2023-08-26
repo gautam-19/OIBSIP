@@ -1,0 +1,115 @@
+.body {
+	padding-top: 70px;
+	background-image: url(https://wallpaperscraft.com/image/line_background_dark_abstract_66997_3840x2160.jpg);
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+}
+
+.jumbotron {
+	color: white !important;
+	background:url(http://blog.erosnow.com/wp-content/uploads/2014/03/Best-top-desktop-abstract-pattern-wallpapers-hd-wallpaper-pattern-pictures-and-images-50.jpg); !important;
+	text-align:  center;
+	text-shadow: 0px 0px 3px rgba(255,255,255,0.3),
+				 0px 4px 3px rgba(0,0,0,0.4),
+             	 0px 8px 13px rgba(0,0,0,0.1),
+             	 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.thumbnail {
+	background-color: #CFD8DC !important;
+	border: 2px solid black !important;
+
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif !important;
+	font-size: 100px !important;
+}
+
+#disc {
+	padding-bottom: 11px;
+	font-family: 'source-sans-pro' , sans-serif;
+}
+
+.well {
+	border: 2px solid black !important;
+	background:url(http://htc-wallpaper.com/wp-content/uploads/2015/06/Paper-pattern.jpg) !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	font-size: 21px;
+	font-weight: 120px;
+	font-family: 'Cuprum', sans-serif;
+}
+
+#facts {
+	text-align: center;
+	padding-top: 15px;
+	font-family: 'Kreon', serif !important;	
+}
+
+#tribute {
+	font-family: 'Kreon', serif !important;	
+	
+	font-size: 47px !important;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif !important;
+	padding-left: 16px;
+	padding-bottom: 1px;
+	font-size: 40px !important;
+	font-weight: 80px !important;
+}
+
+#mjj {
+	padding-left: 80% !important;
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+hr.style-two {
+	border-top: 3px double #8c8b8b;
+}
+
+.caption {
+	font-size: 21px;
+	font-family: 'Kreon', serif;
+}
+
+#wiki {
+	border:2px solid white;
+    margin-top: 40px;
+    background-image: url(http://p1.pichost.me/i/71/1957191.jpg);
+    background-repeat: no-repeat !important;
+	background-size: cover !important;
+	color: white;
+	text-shadow: 0px 0px 3px rgba(255,255,255,0.3),
+				 0px 4px 3px rgba(0,0,0,0.4),
+             	 0px 8px 13px rgba(0,0,0,0.1),
+             	 0px 18px 23px rgba(0,0,0,0.1);
+	font-family: 'Raleway', sans-serif !important;
+	text-align: center;
+	font-size: 37px;
+	font-weight: 40px;
+}
+
+#code {
+	font-size: 20px;
+	border:2px solid white;
+	background: #FFF5EB;
+	width: 25%;
+	border-radius: 5px;
+	text-align: center;
+	font-family: 'Kreon', serif;
+}
+
+h3 {
+	font-size: 30px !important;
+	font-weight: 40px !important;
+	padding-top: 10px;
+}
