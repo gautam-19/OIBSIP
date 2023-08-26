@@ -1,112 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Calculator</title>
-	<link rel="stylesheet" href="main.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Font Awesome cdn css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles.css">
+    <title>To Do web app</title>
 </head>
 <body>
-	
-	<div class="app">
 
-		<div class="calculator">
+    <header>
+        <h1>To Do List</h1>
+    </header>
+    <form action="">
+        <input type="text" class="todo-input">
+        <button class="todo-button" type="submit">
+            <i class="fas fa-plus-circle fa-lg"></i>
+        </button>
+        <div class="select">
+            <select name="todos" class="filter-todo">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="incomplete">Incomplete</option>
+            </select>
+        </div>
+    </form>
 
-			<div class="display">
-				<div class="content">
-					<div class="input"></div>
-					<div class="output"></div>
-				</div>
-			</div>
+    <div class="todo-container">
+        <ul class="todo-list"></ul>
+    </div>
 
-			<div class="keys">
-
-				<div data-key="clear" class="key action">
-					<span>AC</span>
-				</div>
-
-				<div data-key="brackets" class="key action">
-					<span>( )</span>
-				</div>
-
-				<div data-key="%" class="key action">
-					<span>%</span>
-				</div>
-
-				<div data-key="/" class="key operator">
-					<span>÷</span>
-				</div>
-
-				<div data-key="7" class="key">
-					<span>7</span>
-				</div>
-
-				<div data-key="8" class="key">
-					<span>8</span>
-				</div>
-
-				<div data-key="9" class="key">
-					<span>9</span>
-				</div>
-
-				<div data-key="*" class="key operator">
-					<span>x</span>
-				</div>
-
-				<div data-key="4" class="key">
-					<span>4</span>
-				</div>
-
-				<div data-key="5" class="key">
-					<span>5</span>
-				</div>
-
-				<div data-key="6" class="key">
-					<span>6</span>
-				</div>
-
-				<div data-key="-" class="key operator">
-					<span>-</span>
-				</div>
-
-				<div data-key="1" class="key">
-					<span>1</span>
-				</div>
-
-				<div data-key="2" class="key">
-					<span>2</span>
-				</div>
-
-				<div data-key="3" class="key">
-					<span>3</span>
-				</div>
-
-				<div data-key="+" class="key operator">
-					<span>+</span>
-				</div>
-
-				<div data-key="backspace" class="key action">
-					<span>&lt;</span>
-				</div>
-
-				<div data-key="0" class="key">
-					<span>0</span>
-				</div>
-
-				<div data-key="." class="key">
-					<span>.</span>
-				</div>
-				
-				<div data-key="=" class="key operator">
-					<span>=</span>
-				</div>
-			</div>
-
-		</div>
-
-	</div>
-
-	<script src="main.js"></script>
+    <script src="./script.js"></script>
+    
 </body>
 </html>
